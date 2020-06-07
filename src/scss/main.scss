@@ -11,3 +11,16 @@ body {
   justify-content: center;
   min-height: 100vh;
 }
+
+#nav {
+  position: fixed;
+  top: 10px;
+  left: 10px;
+  list-style: none;
+
+  a{
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+  }
+}
